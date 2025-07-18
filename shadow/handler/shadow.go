@@ -9,11 +9,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/visonlv/go-vkit/errorsx"
-	"github.com/visonlv/iot-engine/common/define"
-	"github.com/visonlv/iot-engine/common/utils"
-	"github.com/visonlv/iot-engine/shadow/model"
-	pb "github.com/visonlv/iot-engine/shadow/proto"
+	"github.com/vison888/go-vkit/errorsx"
+	"github.com/vison888/iot-engine/common/define"
+	"github.com/vison888/iot-engine/common/utils"
+	"github.com/vison888/iot-engine/shadow/model"
+	pb "github.com/vison888/iot-engine/shadow/proto"
 )
 
 type ShadowService struct {

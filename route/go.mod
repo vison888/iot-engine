@@ -1,11 +1,11 @@
-module github.com/visonlv/iot-engine/route
+module github.com/vison888/iot-engine/route
 
 go 1.20
 
 require (
 	github.com/BurntSushi/toml v1.3.2
-	// github.com/visonlv/go-vkit v0.0.0-incompatible
-	github.com/visonlv/go-vkit v0.0.0-20231019071952-551a043011db
+	// github.com/vison888/go-vkit v0.0.0-incompatible
+	github.com/vison888/go-vkit 1.0.0
 	google.golang.org/grpc v1.59.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 )
@@ -19,4 +19,4 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20231012201019-e917dd12ba7a // indirect
 )
 
-// replace github.com/visonlv/go-vkit v0.0.0-incompatible => ../../../visonlv/go-vkit
+// replace github.com/vison888/go-vkit v0.0.0-incompatible => ../../../vison888/go-vkit

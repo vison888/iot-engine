@@ -3,7 +3,7 @@ package utils
 import (
 	"hash/fnv"
 
-	"github.com/visonlv/iot-engine/common/define"
+	"github.com/vison888/iot-engine/common/define"
 )
 
 func GetGroupId(s string) int32 {

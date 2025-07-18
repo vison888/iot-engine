@@ -4,8 +4,8 @@ import (
 	"time"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/visonlv/go-vkit/mysqlx"
-	"github.com/visonlv/iot-engine/shadow/app"
+	"github.com/vison888/go-vkit/mysqlx"
+	"github.com/vison888/iot-engine/shadow/app"
 )
 
 // InitTable 初始化数据库表

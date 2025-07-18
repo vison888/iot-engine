@@ -3,9 +3,9 @@ package user
 import (
 	"fmt"
 
-	"github.com/visonlv/go-vkit/utilsx"
-	"github.com/visonlv/iot-engine/auth/handler/auth"
-	"github.com/visonlv/iot-engine/auth/model"
+	"github.com/vison888/go-vkit/utilsx"
+	"github.com/vison888/iot-engine/auth/handler/auth"
+	"github.com/vison888/iot-engine/auth/model"
 )
 
 var passwordKey = "infore_2022~"

@@ -6,7 +6,7 @@ import (
 	"hash/fnv"
 	"strings"
 
-	"github.com/visonlv/iot-engine/common/utils"
+	"github.com/vison888/iot-engine/common/utils"
 )
 
 const (

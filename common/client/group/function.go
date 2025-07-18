@@ -1,6 +1,6 @@
 package group
 
-import pb "github.com/visonlv/iot-engine/group/proto"
+import pb "github.com/vison888/iot-engine/group/proto"
 
 func Start(param *Param) (*Client, *pb.CategoryHeartBeatResp, error) {
 	c := newClient(param)

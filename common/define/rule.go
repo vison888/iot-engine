@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/spf13/cast"
-	"github.com/visonlv/go-vkit/logger"
+	"github.com/vison888/go-vkit/logger"
 )
 
 const (

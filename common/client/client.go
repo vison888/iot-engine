@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/visonlv/iot-engine/common/proto/messaging"
+	"github.com/vison888/iot-engine/common/proto/messaging"
 )
 
 type MessageHandler interface {

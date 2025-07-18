@@ -1,12 +1,12 @@
-module github.com/visonlv/iot-engine/group
+module github.com/vison888/iot-engine/group
 
 go 1.20
 
 require (
 	github.com/BurntSushi/toml v1.3.2
 	github.com/envoyproxy/protoc-gen-validate v1.0.2
-	github.com/visonlv/go-vkit v0.0.0-20231019071952-551a043011db
-	// github.com/visonlv/go-vkit v0.0.0-incompatible
+	github.com/vison888/go-vkit 1.0.0
+	// github.com/vison888/go-vkit v0.0.0-incompatible
 	google.golang.org/genproto/googleapis/api v0.0.0-20231016165738-49dd2c1f3d0b
 	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.31.0

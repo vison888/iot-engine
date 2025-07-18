@@ -7,13 +7,14 @@
 package proto
 
 import (
+	reflect "reflect"
+	sync "sync"
+
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
-	messaging "github.com/visonlv/iot-engine/common/proto/messaging"
+	messaging "github.com/vison888/iot-engine/common/proto/messaging"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	reflect "reflect"
-	sync "sync"
 )
 
 const (

@@ -3,7 +3,7 @@ package rediskey
 import (
 	"time"
 
-	"github.com/visonlv/go-vkit/redisx"
+	"github.com/vison888/go-vkit/redisx"
 )
 
 var (

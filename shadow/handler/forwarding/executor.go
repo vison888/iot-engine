@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/visonlv/go-vkit/errorsx"
-	"github.com/visonlv/iot-engine/common/utils"
-	"github.com/visonlv/iot-engine/shadow/app"
-	thingpb "github.com/visonlv/iot-engine/thing/proto"
+	"github.com/vison888/go-vkit/errorsx"
+	"github.com/vison888/iot-engine/common/utils"
+	"github.com/vison888/iot-engine/shadow/app"
+	thingpb "github.com/vison888/iot-engine/thing/proto"
 )
 
 type executor struct {

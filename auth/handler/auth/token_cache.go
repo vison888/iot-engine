@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/go-redis/redis/v8"
-	"github.com/visonlv/go-vkit/logger"
-	"github.com/visonlv/iot-engine/auth/app"
-	"github.com/visonlv/iot-engine/auth/model"
-	"github.com/visonlv/iot-engine/auth/rediskey"
+	"github.com/vison888/go-vkit/logger"
+	"github.com/vison888/iot-engine/auth/app"
+	"github.com/vison888/iot-engine/auth/model"
+	"github.com/vison888/iot-engine/auth/rediskey"
 )
 
 func AddToken(appcode, userId, roleCode, token string) error {

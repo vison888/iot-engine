@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 
-	"github.com/visonlv/go-vkit/utilsx"
+	"github.com/vison888/go-vkit/utilsx"
 )
 
 var chars = []string{"a", "b", "c", "d", "e", "f",

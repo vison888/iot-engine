@@ -4,7 +4,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/visonlv/go-vkit/logger"
+	"github.com/vison888/go-vkit/logger"
 )
 
 func GetLocalIp() (string, error) {

@@ -6,10 +6,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/visonlv/go-vkit/logger"
-	"github.com/visonlv/go-vkit/utilsx"
-	"github.com/visonlv/iot-engine/auth/app"
-	"github.com/visonlv/iot-engine/auth/model"
+	"github.com/vison888/go-vkit/logger"
+	"github.com/vison888/go-vkit/utilsx"
+	"github.com/vison888/iot-engine/auth/app"
+	"github.com/vison888/iot-engine/auth/model"
 	"github.com/xuri/excelize/v2"
 )
 

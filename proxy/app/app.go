@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/visonlv/iot-engine/proxy/config"
+	"github.com/vison888/iot-engine/proxy/config"
 )
 
 var (

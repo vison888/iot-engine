@@ -8,7 +8,8 @@ package proto
 
 import (
 	context "context"
-	grpcx "github.com/visonlv/go-vkit/grpcx"
+
+	grpcx "github.com/vison888/go-vkit/grpcx"
 	grpc "google.golang.org/grpc"
 )
 

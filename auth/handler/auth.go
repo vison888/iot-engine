@@ -10,21 +10,21 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/visonlv/iot-engine/auth/app"
-	pb "github.com/visonlv/iot-engine/auth/proto"
-	"github.com/visonlv/iot-engine/auth/rediskey"
-	"github.com/visonlv/iot-engine/auth/utils"
+	"github.com/vison888/iot-engine/auth/app"
+	pb "github.com/vison888/iot-engine/auth/proto"
+	"github.com/vison888/iot-engine/auth/rediskey"
+	"github.com/vison888/iot-engine/auth/utils"
 
-	"github.com/visonlv/iot-engine/auth/model"
+	"github.com/vison888/iot-engine/auth/model"
 
-	"github.com/visonlv/iot-engine/auth/handler/auth"
-	"github.com/visonlv/iot-engine/auth/handler/convert"
-	"github.com/visonlv/iot-engine/auth/handler/verification"
+	"github.com/vison888/iot-engine/auth/handler/auth"
+	"github.com/vison888/iot-engine/auth/handler/convert"
+	"github.com/vison888/iot-engine/auth/handler/verification"
 
-	"github.com/visonlv/iot-engine/auth/handler/user"
+	"github.com/vison888/iot-engine/auth/handler/user"
 
-	"github.com/visonlv/go-vkit/errorsx"
-	"github.com/visonlv/go-vkit/logger"
+	"github.com/vison888/go-vkit/errorsx"
+	"github.com/vison888/go-vkit/logger"
 	"gorm.io/gorm"
 )
 

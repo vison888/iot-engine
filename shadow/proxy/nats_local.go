@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/visonlv/go-vkit/logger"
-	"github.com/visonlv/iot-engine/common/client"
-	"github.com/visonlv/iot-engine/common/client/nats"
-	"github.com/visonlv/iot-engine/common/proto/messaging"
-	"github.com/visonlv/iot-engine/shadow/app"
+	"github.com/vison888/go-vkit/logger"
+	"github.com/vison888/iot-engine/common/client"
+	"github.com/vison888/iot-engine/common/client/nats"
+	"github.com/vison888/iot-engine/common/proto/messaging"
+	"github.com/vison888/iot-engine/shadow/app"
 )
 
 type Nats2Local struct {

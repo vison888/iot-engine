@@ -5,49 +5,48 @@
 package handler
 
 import (
-	"github.com/visonlv/go-vkit/grpcx"
-	
+	"github.com/vison888/go-vkit/grpcx"
 )
 
 func GetList() []interface{} {
 	list := make([]interface{}, 0)
 	list = append(list, &ForwardingService{})
-	
+
 	return list
 }
 
 func GetApiEndpoint() []*grpcx.ApiEndpoint {
 	return []*grpcx.ApiEndpoint{
 		{
-			Method:"ForwardingService.Properties",
-			Url:"/rpc/route/ForwardingService.Properties", 
-			ClientStream:false, 
-			ServerStream:false,
-		},{
-			Method:"ForwardingService.Service",
-			Url:"/rpc/route/ForwardingService.Service", 
-			ClientStream:false, 
-			ServerStream:false,
-		},{
-			Method:"ForwardingService.SetProperty",
-			Url:"/rpc/route/ForwardingService.SetProperty", 
-			ClientStream:false, 
-			ServerStream:false,
-		},{
-			Method:"ForwardingService.SetProperties",
-			Url:"/rpc/route/ForwardingService.SetProperties", 
-			ClientStream:false, 
-			ServerStream:false,
-		},{
-			Method:"ForwardingService.ServiceReply",
-			Url:"/rpc/route/ForwardingService.ServiceReply", 
-			ClientStream:false, 
-			ServerStream:false,
-		},{
-			Method:"ForwardingService.Watch",
-			Url:"/rpc/route/ForwardingService.Watch", 
-			ClientStream:false, 
-			ServerStream:true,
+			Method:       "ForwardingService.Properties",
+			Url:          "/rpc/route/ForwardingService.Properties",
+			ClientStream: false,
+			ServerStream: false,
+		}, {
+			Method:       "ForwardingService.Service",
+			Url:          "/rpc/route/ForwardingService.Service",
+			ClientStream: false,
+			ServerStream: false,
+		}, {
+			Method:       "ForwardingService.SetProperty",
+			Url:          "/rpc/route/ForwardingService.SetProperty",
+			ClientStream: false,
+			ServerStream: false,
+		}, {
+			Method:       "ForwardingService.SetProperties",
+			Url:          "/rpc/route/ForwardingService.SetProperties",
+			ClientStream: false,
+			ServerStream: false,
+		}, {
+			Method:       "ForwardingService.ServiceReply",
+			Url:          "/rpc/route/ForwardingService.ServiceReply",
+			ClientStream: false,
+			ServerStream: false,
+		}, {
+			Method:       "ForwardingService.Watch",
+			Url:          "/rpc/route/ForwardingService.Watch",
+			ClientStream: false,
+			ServerStream: true,
 		},
 	}
 }

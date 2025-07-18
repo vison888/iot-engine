@@ -1,4 +1,4 @@
-module github.com/visonlv/iot-engine/thing
+module github.com/vison888/iot-engine/thing
 
 go 1.20
 
@@ -7,7 +7,7 @@ require (
 	github.com/envoyproxy/protoc-gen-validate v1.0.2
 	github.com/nats-io/nats.go v1.29.0
 	github.com/spf13/cast v1.5.1
-	github.com/visonlv/go-vkit v0.0.0-20231019071952-551a043011db
+	github.com/vison888/go-vkit 1.0.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20231016165738-49dd2c1f3d0b
 	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.31.0

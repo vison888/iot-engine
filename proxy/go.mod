@@ -1,11 +1,11 @@
-module github.com/visonlv/iot-engine/proxy
+module github.com/vison888/iot-engine/proxy
 
 go 1.20
 
 require (
 	github.com/BurntSushi/toml v1.3.2
 	github.com/plgd-dev/go-coap/v3 v3.1.5
-	github.com/visonlv/go-vkit v0.0.0-20231019071952-551a043011db
+	github.com/vison888/go-vkit 1.0.0
 )
 
 require golang.org/x/sys v0.13.0 // indirect

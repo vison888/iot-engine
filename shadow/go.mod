@@ -1,4 +1,4 @@
-module github.com/visonlv/iot-engine/shadow
+module github.com/vison888/iot-engine/shadow
 
 go 1.20
 
@@ -6,8 +6,8 @@ require (
 	github.com/BurntSushi/toml v1.3.2
 	github.com/envoyproxy/protoc-gen-validate v1.0.2
 	github.com/nats-io/nats.go v1.29.0
-	// github.com/visonlv/go-vkit v0.0.0-incompatible
-	github.com/visonlv/go-vkit v0.0.0-20231019071952-551a043011db
+	// github.com/vison888/go-vkit v0.0.0-incompatible
+	github.com/vison888/go-vkit 1.0.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20231016165738-49dd2c1f3d0b
 	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.31.0
@@ -19,9 +19,9 @@ require (
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/spf13/cast v1.5.1
 	github.com/taosdata/driver-go/v3 v3.5.0
-	github.com/visonlv/iot-engine/common v0.0.0-20231218092732-4206564b1e5a
-	github.com/visonlv/iot-engine/group v0.0.0-20231218092732-4206564b1e5a
-	github.com/visonlv/iot-engine/thing v0.0.0-20231218092732-4206564b1e5a
+	github.com/vison888/iot-engine/common v0.0.0-20231218092732-4206564b1e5a
+	github.com/vison888/iot-engine/group v0.0.0-20231218092732-4206564b1e5a
+	github.com/vison888/iot-engine/thing v0.0.0-20231218092732-4206564b1e5a
 )
 
 require (
@@ -50,4 +50,4 @@ require (
 	gorm.io/driver/mysql v1.5.1 // indirect
 )
 
-// replace github.com/visonlv/go-vkit v0.0.0-incompatible => ../../../visonlv/go-vkit
+// replace github.com/vison888/go-vkit v0.0.0-incompatible => ../../../vison888/go-vkit

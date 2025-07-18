@@ -1,4 +1,4 @@
-module github.com/visonlv/iot-engine/auth
+module github.com/vison888/iot-engine/auth
 
 go 1.20
 
@@ -7,7 +7,8 @@ require (
 	github.com/envoyproxy/protoc-gen-validate v1.0.2
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/golang-jwt/jwt v3.2.2+incompatible
-	github.com/visonlv/go-vkit v0.0.0-20231019071952-551a043011db
+	github.com/vison888/go-vkit v0.0.0-20250718073136-f73f691c9fea
+	github.com/visonlv/go-vkit v1.0.4
 	github.com/xuri/excelize/v2 v2.7.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20231016165738-49dd2c1f3d0b
 	google.golang.org/grpc v1.59.0
@@ -19,7 +20,6 @@ require (
 require (
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
-	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
 	github.com/gofrs/uuid v4.4.0+incompatible // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
@@ -29,7 +29,6 @@ require (
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/richardlehane/mscfb v1.0.4 // indirect
 	github.com/richardlehane/msoleps v1.0.3 // indirect
-	github.com/stretchr/testify v1.8.4 // indirect
 	github.com/xuri/efp v0.0.0-20220603152613-6918739fd470 // indirect
 	github.com/xuri/nfp v0.0.0-20220409054826-5e722a1d9e22 // indirect
 	golang.org/x/crypto v0.14.0 // indirect

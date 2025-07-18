@@ -5,12 +5,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/visonlv/iot-engine/auth/handler/user"
-	pb "github.com/visonlv/iot-engine/auth/proto"
+	"github.com/vison888/iot-engine/auth/handler/user"
+	pb "github.com/vison888/iot-engine/auth/proto"
 
-	"github.com/visonlv/iot-engine/auth/model"
+	"github.com/vison888/iot-engine/auth/model"
 
-	"github.com/visonlv/go-vkit/utilsx"
+	"github.com/vison888/go-vkit/utilsx"
 )
 
 func UserToUserPb(m *model.UserModel, appCode string) (*pb.User, error) {

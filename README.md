@@ -28,7 +28,7 @@ go install github.com/grpc-ecosystem/grpc-gateway/protoc-gen-openapiv2@v2.18.0
 
 ### 安装vkit grpc接口生成工具
 ```
-go install github.com/visonlv/protoc-gen-vkit@master
+go install github.com/vison888/protoc-gen-vkit@master
 
 ```
 

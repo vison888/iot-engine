@@ -5,10 +5,10 @@ import (
 	"time"
 
 	_ "github.com/taosdata/driver-go/v3/taosRestful"
-	"github.com/visonlv/go-vkit/grpcclient"
-	"github.com/visonlv/go-vkit/mysqlx"
-	"github.com/visonlv/iot-engine/shadow/config"
-	thingpb "github.com/visonlv/iot-engine/thing/proto"
+	"github.com/vison888/go-vkit/grpcclient"
+	"github.com/vison888/go-vkit/mysqlx"
+	"github.com/vison888/iot-engine/shadow/config"
+	thingpb "github.com/vison888/iot-engine/thing/proto"
 )
 
 type CClient struct {

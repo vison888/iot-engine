@@ -8,11 +8,11 @@ import (
 	context "context"
 	"fmt"
 
-	"github.com/visonlv/go-vkit/errorsx"
-	"github.com/visonlv/go-vkit/utilsx"
-	"github.com/visonlv/iot-engine/auth/handler/auth"
-	"github.com/visonlv/iot-engine/auth/model"
-	pb "github.com/visonlv/iot-engine/auth/proto"
+	"github.com/vison888/go-vkit/errorsx"
+	"github.com/vison888/go-vkit/utilsx"
+	"github.com/vison888/iot-engine/auth/handler/auth"
+	"github.com/vison888/iot-engine/auth/model"
+	pb "github.com/vison888/iot-engine/auth/proto"
 )
 
 type ResourceService struct {

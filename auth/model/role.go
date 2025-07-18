@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/visonlv/go-vkit/mysqlx"
-	"github.com/visonlv/go-vkit/utilsx"
+	"github.com/vison888/go-vkit/mysqlx"
+	"github.com/vison888/go-vkit/utilsx"
 	"gorm.io/gorm"
 )
 

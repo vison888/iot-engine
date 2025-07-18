@@ -3,7 +3,7 @@ package model
 import (
 	"time"
 
-	"github.com/visonlv/go-vkit/mysqlx"
+	"github.com/vison888/go-vkit/mysqlx"
 	"gorm.io/gorm"
 )
 

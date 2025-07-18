@@ -1,6 +1,6 @@
 package proxy
 
-import "github.com/visonlv/iot-engine/common/proto/messaging"
+import "github.com/vison888/iot-engine/common/proto/messaging"
 
 type handleFunc func(msg *messaging.Message) error
 

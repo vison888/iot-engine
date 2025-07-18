@@ -2,7 +2,7 @@ package nats
 
 import (
 	"github.com/nats-io/nats.go"
-	"github.com/visonlv/go-vkit/natsx"
+	"github.com/vison888/go-vkit/natsx"
 )
 
 type subscriptionTopic struct {

@@ -1,8 +1,8 @@
-module github.com/visonlv/iot-engine/gate
+module github.com/vison888/iot-engine/gate
 
 require (
 	github.com/BurntSushi/toml v1.3.2
-	github.com/visonlv/go-vkit v0.0.0-20231019071952-551a043011db
+	github.com/vison888/go-vkit 1.0.0
 )
 
 require (

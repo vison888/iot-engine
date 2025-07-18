@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/visonlv/go-vkit/mysqlx"
-	"github.com/visonlv/iot-engine/thing/app"
+	"github.com/vison888/go-vkit/mysqlx"
+	"github.com/vison888/iot-engine/thing/app"
 )
 
 // InitTable 初始化数据库表

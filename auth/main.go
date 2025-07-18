@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/visonlv/iot-engine/auth/app"
-	"github.com/visonlv/iot-engine/auth/model"
-	"github.com/visonlv/iot-engine/auth/server"
+	"github.com/vison888/iot-engine/auth/app"
+	"github.com/vison888/iot-engine/auth/model"
+	"github.com/vison888/iot-engine/auth/server"
 )
 
 func main() {
